@@ -2,6 +2,7 @@
 /server/venv/Lib
 # testing
 /coverage
+/node_modules
 
 # next.js
 /client/.next/
@@ -20,8 +21,6 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
 
 # vercel
 .vercel

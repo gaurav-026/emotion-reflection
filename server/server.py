@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 # //app instance 
 app = Flask(__name__)
+CORS(app)
 
 # Routes
 
@@ -18,7 +20,7 @@ def return_analysis():
     if not data: 
         return jsonify({
             "success": False,
-            "error": "Text is required"
+            "message": "Text is required"
         }), 400
     
     response = {
