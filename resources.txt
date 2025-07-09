@@ -1,0 +1,7 @@
+Creating First Flast API: 
+--> Create a Virtual Environment : python -m venv venv  (name_path_to_env) 
+--> Activate Environment: <name_of_env>/Scripts/activate.bat    eg: venv/Scripts/activate.bat
+--> Create a server.py file using; New Item server.py or ni server.py
+--> Install flask using: pip install flask
+--> Write Logic
+--> run python server.py to run the server
